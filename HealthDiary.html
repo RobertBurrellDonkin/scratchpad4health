@@ -1,0 +1,187 @@
+<html>
+<head>
+<title></title>
+<style type='text/css'>
+* {
+	font-family:sans serif;
+}
+div.timeline {
+	border-color:gray;
+	border-style:solid;
+	border-width:thin;
+	width:30%;
+	float: left;
+	padding:0.25em;
+}
+div.day,div.today {
+	border-color:gray;
+	border-style:solid;
+	border-width:thin;
+	padding:0.5em;
+}
+div.details {
+	border-color:gray;
+	border-style:solid;
+	border-width:medium;
+	float: right;
+	padding:0.25em;
+	width:66%
+}
+div.details ul {
+	padding:0em 0em 0em 1em
+}
+div.details * {
+	padding:0.25em;
+}
+h1.brand {
+	font-family: Bitstream Charter, serif;
+	padding: 1em 1em 0 1em;
+}
+div.action {
+	border-color:gray;
+	border-style:solid;
+	border-width:thin;
+	padding:0.25em
+	margin: 0.5em;
+}
+div.action dl {
+	color:red;
+	margin: 0em 0em 0em 3em;
+}
+</style>
+</head>
+<body>
+<div class='timeline'>
+<h1>Timeline</h1>
+<p>
+</p>
+<div class='today'>
+<h1>Today</h1>
+<p>is October 21, 2011</p>
+</div>
+<div class='day'>
+<h1>13 Oct 2011</h1>
+<p>I feel like I have a cold, cough or the flu.</p>
+<dl>
+<dt>My temperature</dt>
+<dd>is high.</dd>
+<dt>I have</dt>
+<dd>a chesty cough.</dd>
+<dt>I have</dt>
+<dd>a headache.</dd>
+</dl>
+</div>
+<h1>About You</h1>
+<p>You</p>
+<ul>
+<li>are aged between 15 and 30</li>
+<li>have mild asthma but manage your own condition</li>
+</ul>
+<p>Please let us <a href=''>know</a>
+if this is no longer correct.</p>
+<h1>About Us</h1>
+<p>Seven Stumps Practice is a friendly, modern community medical team
+featuring a mix of clinical experts across a range of disciplines.
+</p><p>
+This software isn't capable of giving a diagnosis
+&mdash; that's what our team are good at &mdash; but it can help you navigate
+our system to discover what might work well for you: saving you time and worry.
+</p><p>
+We encourage you to keep a health diary on this system, recording the symptoms you
+feel each day.
+</p>
+</div>
+<div class='details'>
+<h1 class='brand'>Seven Stumps Practice</h1>
+<h2>welcomes Al Bloggs.</h2>
+<h3>
+How can we help you?
+</h3>
+<ul>
+<li>Talk to our team on 0123 456 7890</li>
+<li>Ask our team for an <a href=''>answer</a></li>
+<li>Browse <a href=''>NHS Direct</a></li>
+</ul>
+<div class='action'>
+<h1>Today &mdash; October 21</h1>
+<h2>How are you feeling today?</h2>
+<form>
+<input type="radio" name="feeling" value="fine" />
+<label for="fine">I feel fine.</label>
+<input type="radio" name="feeling" value="okay" />
+<label for="okay">I feel okay.</label>
+<input type="radio" name="feeling" value="iffy" />
+<label for="iffy">I feel a little under the weather.</label>
+<input type="radio" name="feeling" value="unwell" />
+<label for="unwell">I'm not feeling very well.</label>
+</form> 
+<h3>Do you still feel like you have a cold, cough or the flu?</h3>
+<form>
+<input type="radio" name="cold" value="well" />
+<label for="well">I feel better now.</label>
+<input type="radio" name="cold" value="improving" />
+<label for="improving">I feel like I'm getting better.</label>
+<input type="radio" name="feeling" value="same" />
+<label for="same">I still feel much the same.</label>
+<input type="radio" name="feeling" value="worse" />
+<label for="worse">I feel a little worse.</label>
+<input type="radio" name="feeling" value="much-worse" />
+<label for="much-worse">I feel much worse.</label>
+</form> 
+<p>NHS direct has plenty of <a href=''>advice</a> or ask our team for an <a href=''>answer</a>.</p>
+<p>
+On October 13th, you reported that 
+</p>
+<dl>
+<dt>You temperature</dt>
+<dd>was high.</dd>
+<dt>You had</dt>
+<dd>a chesty cough.</dd>
+<dt>You had</dt>
+<dd>a headache.</dd>
+</dl>
+<p>Do you feel the same today?</p> <form>
+<input type="radio" name="symptoms" value="same" />
+<label for="same">Yes, I still have a high temperature, a chesty cough and a headache.</label>
+<input type="radio" name="symptoms" value="new" />
+<label for="new">No &mdash; I feel different today.</label>
+</form>
+<h4>Check For Meningitis</h4>
+<p>Young people (like you) usually fight off flu quickly without needing to bother with appointments.
+Meningitis is rare and responds well to treatment but sometimes the symptoms feel a little like the flu. 
+Read more about Meningitis on <a href=''>NHS Choices</a>.</p>
+<form>
+<p>Some early warning signs are:
+<ul>
+<li>pain in arms, legs, knees or elbows</li>
+<li>unusually cold hands and feet, or shivering</li>
+<li>pale or blotchy skin and blue lips</li>
+</ul>
+<p>
+Do you feel any of these? 
+<input type="radio" name="check-meningitis" value="no" />
+<label for="new">No</label>
+<input type="radio" name="check-meningitis" value="yes" />
+<label for="same">Yes, I feel pain in arms, legs, knees or elbows, cold hands and feet, blue lips or pale skin.</label>
+</p>
+</form>
+<h4>Do You Have Problems Breathing?</h4>
+<p>Often, you'll recover from a chesty cough quicker keeping warm at home than bothering to 
+book an appointment and visit your doctor. 
+Once we're able to fit you in for a check-up, your cough may be gone!</p>
+<p>Asthmatics, like you, sometimes need antibiotics to quickly clear up chesty coughs. 
+We'd be really happy to see you but to work out whether a visit soon would be worthwhile for you, 
+we'd like to learn more.</p>
+<h3>Any Other Health Worries?</h3>
+<form>
+<p>
+Any other health worries on your mind?
+<input type="radio" name="other" value="no" />
+<label for="new">No &mdash; everything else is fine.</label>
+<input type="radio" name="other" value="yes" />
+<label for="same">Yes...</label>
+</p>
+</form>
+</div>
+</div>
+</body>
